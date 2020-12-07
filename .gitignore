@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Ignore compiled CSS files
+assets/css/

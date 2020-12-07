@@ -20,6 +20,8 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    // CSS file in the project
+    '@/assets/css/main.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -37,8 +39,14 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    'bootstrap-vue/nuxt',
   ],
 
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
+  },
+  
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }

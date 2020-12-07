@@ -90,4 +90,4 @@ sw.*
 *.swp
 
 # Ignore compiled CSS files
-assets/css/
+assets/css/*
